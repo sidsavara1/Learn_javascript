@@ -1,0 +1,136 @@
+// var firstname = "Dany";
+// var lastname = "Entezari";
+// console.log(firstname, lastname);
+
+// var anotherFirstName = "Jon";
+// var anotherLastName = "Doe";
+// console.log(anotherFirstName + " " + anotherLastName);
+
+// var someNumber = 5;
+// var anotherNumber = 5;
+// console.log(someNumber + anotherNumber);
+
+// const bankAccount = 100;
+// console.log("I have " + bankAccount + " AED");
+// console.log("I have " + bankAccount + " AED");
+
+
+// function addTwoNumbers(num1, num2)
+// {
+//     let result = num1 + num2;
+//     return result;
+// };
+
+// let addition = addTwoNumbers(10,5);
+// console.log(addition);
+
+
+// function introduceMe(name){
+//     let introduction = "Hi, my name is " + name;
+//     return introduction;
+// }
+
+// console.log(introduceMe("Dany"));
+// console.log(introduceMe("Sophie"));
+// console.log(introduceMe("Avin"));
+
+// let persons = [
+//     'Avin',
+//     'Sophie',
+//     'Ahmad',
+//     'Jim'
+// ];
+
+// let car = {
+//     model: '2018',
+//     make: 'Honda',
+//     color: 'Blue',
+//     doors: 2,
+//     interior: {
+//         fabric: 'Leather',
+//         colors: ['Beige','White','Blue'],
+//         stereo: false 
+//     }
+// }
+
+
+// if(car.interior.fabric == "Leather") {
+//     console.log("The interior is leather");
+
+// } else if(car.interior.fabric == "Cloth") {
+//     console.log("The interior is cloth");
+
+// } else {
+//     console.log("The car has default interior");
+// }
+
+// console.log('The color of my car is ' + car['color']);
+// console.log('The make of my car is ' + car.make);
+// console.log('The color of the interior of my car is ' + car.interior.colors);
+
+// function addTwoNumbers(num1, num2) {
+//     let result = num1 + num2;
+//     return result;
+// };
+
+
+// let name = "Somethinh";
+// const age = 100;
+// const subtractTwoNumbers = (num1, num2) => {
+//     let result = num1 - num2;
+//     return result;
+// }
+
+
+
+// const findMax = (someNumbers) =>{
+//     for(let i=0; i<someNumbers.length; i++)
+//     {
+//         if(someNumbers[i]>max) {
+//             max = someNumbers[i];
+//         }  
+//     }
+//     return max;
+// }
+
+
+// const findMin = (someNumbers)=>{
+//     let min = someNumbers[0];
+//     for(let i=0; i<someNumbers.length; i++)
+//     {
+//         if(someNumbers[i]<min){
+//             min = someNumbers[i];
+//         }
+//     }
+//     return min;
+// }
+
+// console.log( findMin([10,50,-36,2,6,9,86]) )
+
+// let i = 0;
+// while(i<10){
+//     i++;
+//     console.log(i);
+// }
+
+
+
+let persons = ['Jim','Jane','Tim'];
+
+console.log(persons)
+
+persons.push('Sid')
+//push adds to the end of an array
+
+
+console.log(persons)
+
+
+persons.unshift('Mike')
+//unshift adds to the front of an array
+
+console.log(persons)
+
+persons.splice(2,1)
+
+console.log(persons)
